@@ -14,6 +14,7 @@ import TIM from 'tim-js-sdk';
 import COS from "cos-js-sdk-v5";
 import genTestUserSig from './GenerateTestUserSig'
 import echarts from 'echarts'
+import components from 'han-components'
 
 let options = {
   SDKAppID: 1400449484// 接入时需要将0替换为您的即时通信 IM 应用的 SDKAppID
@@ -28,6 +29,7 @@ tim.registerPlugin({'cos-js-sdk': COS});
 
 Vue.use(Antd);
 Vue.use(Vant);
+Vue.use(components)
 
 Vue.config.productionTip = false;
 Vue.prototype.$bus = new Vue();

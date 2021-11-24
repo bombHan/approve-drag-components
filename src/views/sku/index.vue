@@ -1,6 +1,7 @@
 <template>
   <div class="sku">
-    <div style="font-weight: bold; margin: 20px 0">sku算法-实现商品多规格</div>
+    <!-- <div style="font-weight: bold; margin: 20px 0">sku算法-实现商品多规格</div> -->
+		<zz-title title="sku算法-实现商品多规格" style="font-weight: bold; margin: 20px 0"></zz-title>
     <a-form-model ref="form" :model="formData">
       <div class="standard-list">
         <div
